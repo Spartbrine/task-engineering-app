@@ -94,3 +94,20 @@ h1 {
 }
 
 /* ===== Pagina Acerca de (feature/about-page) ===== */
+.about {
+  padding: 16px 0;
+}
+
+.about__list {
+  margin: 8px 0 16px;
+  padding-left: 20px;
+}
+
+.about__back {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.about__back:hover {
+  text-decoration: underline;
+}
