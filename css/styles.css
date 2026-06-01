@@ -6,7 +6,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ffffff; /* color de fondo principal */
+  background-color: #fff8e1; /* color de fondo principal */
   color: #222222;
   line-height: 1.6;
 }
@@ -24,5 +24,43 @@ h1 {
 /* ===== Navbar (feature/navbar) ===== */
 
 /* ===== Formulario de tareas (feature/task-form) ===== */
+.task-form {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.task-form__input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #b0bec5;
+  border-radius: 4px;
+}
+
+.task-form__btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #27ae60;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.task-form__btn:hover {
+  background-color: #219150;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list__item {
+  padding: 8px 12px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
 
 /* ===== Pagina Acerca de (feature/about-page) ===== */
