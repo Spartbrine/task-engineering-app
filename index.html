@@ -7,11 +7,38 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <!-- El navbar se agrega en la rama feature/navbar -->
+  <nav class="navbar">
+    <span class="navbar__brand">Task Engineering App</span>
+    <ul class="navbar__links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="about.html">Acerca de</a></li>
+    </ul>
+  </nav>
   <main class="container">
     <h1>Task Engineering App</h1>
     <p>Gestor de tareas para la practica de GitLab Flow / GitHub Flow.</p>
     <!-- El formulario de tareas se agrega en la rama feature/task-form -->
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Engineering App</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- El navbar se agrega en la rama feature/navbar -->
+  <main class="container">
+    <h1>Task Engineering App</h1>
+    <p>Gestor de tareas para la practica de GitLab Flow / GitHub Flow.</p>
+    <form id="task-form" class="task-form">
+      <input type="text" id="task-input" class="task-form__input" placeholder="Nueva tarea..." required>
+      <button type="submit" class="task-form__btn">Agregar</button>
+    </form>
+    <ul id="task-list" class="task-list"></ul>
   </main>
   <script src="js/app.js"></script>
 </body>
